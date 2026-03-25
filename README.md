@@ -72,6 +72,47 @@ Data Engineer specializing in ETL pipelines, data automation, and analytics dash
 
 ---
 
+### 4. Telecom Network Monitoring Pipeline
+**Problem:** Network Operations Center learned about network issues from customer complaints, not from monitoring systems.
+
+**Solution:**
+- Built real-time event streaming pipeline using Apache Kafka
+- ClickHouse for storing billions of network events
+- Apache Airflow orchestrating 4 scheduled aggregations (5 min, 30 min, hourly, daily)
+- Grafana dashboards for NOC monitoring
+
+**Impact:**
+- ⏱️ NOC detects network issues in 5 minutes (was 24 hours)
+- ✅ Call drop rate reduced by 12%
+- 📊 Processing 10M+ events per hour
+
+**Tech Stack:** Kafka, ClickHouse, Apache Airflow, Grafana, Python, Docker
+
+**Code:** See `telecom-network-monitoring/` folder
+
+---
+
+### 5. Telecom Customer Analytics Pipeline
+**Problem:** Customer data fragmented across systems. Analysts spent 3 hours/day manually collecting data. Marketing unable to identify churn risk.
+
+**Solution:**
+- Built automated ETL pipeline using Apache Airflow
+- 5 pipelines at different schedules (5 min, 30 min, hourly, daily, weekly)
+- Consolidated billing, CRM, and market data into PostgreSQL
+- Churn prediction scoring algorithm
+- Grafana dashboards for marketing team
+
+**Impact:**
+- ✅ Churn rate decreased by 8%
+- ⏱️ Eliminated 3 hours/day of manual work
+- 💰 Retained $2M+ annual revenue through early churn detection
+
+**Tech Stack:** Apache Airflow, PostgreSQL, Python, Grafana, Docker
+
+**Code:** See `telecom-customer-analytics/` folder
+
+---
+
 ## Technical Skills
 
 **Languages & Tools:**
