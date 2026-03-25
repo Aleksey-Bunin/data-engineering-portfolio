@@ -1,7 +1,7 @@
 # Data Engineering Portfolio
 
 ## About Me
-Data Engineer specializing in ETL pipelines, data automation, and analytics dashboards. Experience across telecom and manufacturing industries.
+Data Engineer with extensive experience building ETL pipelines, automating data workflows, and developing analytics dashboards for e-commerce and telecom industries.
 
 **Core Skills:**
 - Python (Pandas, NumPy, GeoPandas)
